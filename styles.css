@@ -25,7 +25,7 @@ body {
 
 /* Estiliza o cabeçalho */
 header {
-    margin-top: 100px;
+    margin-top: 30px;
     padding: 0;
     box-sizing: border-box;
 }
@@ -34,7 +34,7 @@ header {
 .titulo {
     position: relative;
     padding-top: 20px;
-    font-size: 35px; /* Tamanho da fonte */
+    font-size: 30px; /* Tamanho da fonte */
     color: #5F6F52; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     letter-spacing: 0.1rem; /* Espaçamento entre letras */
@@ -72,7 +72,7 @@ section input {
 /* Estiliza a logo */
 .logo {
     margin: auto; /* Centraliza a logo */
-    width: 240px;
+    width: 140px;
     height: auto;
     margin-top: auto;
     display: block; /* Garante que a imagem da logo seja exibida como um bloco */
@@ -192,5 +192,8 @@ footer {
 
 ::-webkit-scrollbar-thumb {
     background-color: #5F6F52;
+    border-radius: 30px;
+}
+
     border-radius: 30px;
 }
